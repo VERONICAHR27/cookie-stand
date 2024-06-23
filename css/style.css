@@ -1,0 +1,33 @@
+* {
+    margin: 0; 
+    }
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: salmon;
+    background-color: black;
+    padding: 25px;
+}
+div{
+    color: black;
+    background-color: salmon;
+    padding: 10px;
+}
+a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+}
+section{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    padding: 10px;
+    font-family: Verdana;
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    list-style-type: none;
+}
