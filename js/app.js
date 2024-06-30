@@ -115,8 +115,12 @@ function Location(
         const tr =render(stores[i]);
         table.appendChild(tr);
      }
-     root.appendChild(table)
+    root.appendChild(table)
+    
+    
+     
  }
+ runAplication();
 
  function run(){
     for(let i =0;i< stores.length; i++){
@@ -124,5 +128,7 @@ function Location(
       renderIndex(stores[i]);
     }
   }
+  run();
+  
 
  
