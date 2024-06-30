@@ -19,15 +19,71 @@ a{
     margin-left: 15px;
     color: black;
 }
-section{
+section.fill {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+section.fill h2 {
+    font-family: "Righteous", sans-serif;
+    font-style: bold;
+    color: black
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 55px;
+    color: gray;
+}
+
+section h2 {
+    font-family: "Righteous", sans-serif;
+    font-style: bold;
+    color: black;
+    padding-left: 10px;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    padding: 30px;
+    margin: 30;
+    width: 100%;
     text-align: center;
-    padding: 20px;
 }
-h2{
+
+p.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+}
+section h2 {
+    font-family: "Righteous", sans-serif;
+    font-style: bold;
+    color: black;
+    padding-left: 30px;
+}
+
+main.tabla {
+    flex: 1;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: smaller;
+    align-content: center;
+    border: 2.5px solid black;
+}
+
+th, td {
+    border: 1px solid black;
     padding: 10px;
-    font-family: Verdana;
+    text-align: center;
+    vertical-align: middle;
 }
-li{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    list-style-type: none;
+
+th {
+    font-weight: bold;
 }
+
