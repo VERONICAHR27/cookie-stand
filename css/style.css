@@ -19,6 +19,10 @@ a{
     margin-left: 15px;
     color: black;
 }
+.imagen{
+    text-align: center;
+
+}
 section.fill {
     padding-top: 20px;
     padding-bottom: 15px;
@@ -69,7 +73,7 @@ main.tabla {
 }
 
 table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
     font-size: smaller;
     align-content: center;
@@ -86,4 +90,14 @@ th, td {
 th {
     font-weight: bold;
 }
+legend{
+    color: salmon;
+    font-weight: bold;
+}
 
+input{
+    width: 120px;
+}
+label{
+    padding-right: 10px;
+}
