@@ -125,7 +125,6 @@ function run() {
         renderIndex(stores[i]);
     }
 }
-
 function deleteTable(){
     const root = document.getElementById("root");
     root.textContent = "";
@@ -147,5 +146,8 @@ addStore.addEventListener("submit",
         runAplication();
         addStore.reset();
     }
+        
+
 );
+
 
